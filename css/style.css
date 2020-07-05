@@ -12,7 +12,10 @@ body {
   text-decoration-color: var(--main-text-color);
   background-color: white;
   list-style: none;
-}
+  letter-spacing: 0.03em;
+  /*
+  background-color: #758080;
+*/}
 
 .list {
   list-style: none;
@@ -35,7 +38,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
+  
   color: var(--main-text-color);
   text-shadow: 0px 4px 4px;
 }
@@ -45,7 +48,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.9;
-  letter-spacing: 0.03em;
+  
   color: var(--acent-color);
   text-shadow: 0px 4px 4px;
 }
@@ -56,14 +59,20 @@ body {
   letter-spacing: 0.02em;
   color: var(--main-text-color);
 }
-
-.contacts {
+.navigation-items .contacts {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.4;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
+
+.navigation a {
+  color: var(--main-text-color);
+}
+
+.navigation .list .contacts a {color:var(--secondary-text-color);}
+
 .main-title {
   font-weight: 900;
   font-size: 44px;
@@ -88,7 +97,7 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
-  letter-spacing: 0.03em;
+  
   text-transform: uppercase;
   color: var(--main-text-color);
 }
@@ -97,7 +106,7 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
+  
   color: var(--secondary-text-color);
 }
 
@@ -106,7 +115,7 @@ body {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  letter-spacing: 0.03em;
+  
   color: var(--main-text-color);
 }
 .what-we-do {
@@ -114,7 +123,7 @@ body {
   font-size: 14px;
   line-height: 1.4;
   text-align: center;
-  letter-spacing: 0.03em;
+  
   text-transform: uppercase;
   color: #ffffff;
 }
@@ -123,7 +132,7 @@ body {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-  letter-spacing: 0.03em;
+  
   color: var(--main-text-color);
 }
 .teammates-position {
@@ -131,7 +140,7 @@ body {
   font-size: 16px;
   line-height: 1.9;
   text-align: center;
-  letter-spacing: 0.03em;
+  
   color: var(--secondary-text-color);
 }
 .logo-web-footer {
@@ -139,7 +148,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
-  letter-spacing: 0.03em;
+  
   color: var(--acent-color);
 }
 
@@ -148,32 +157,42 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.9;
-  letter-spacing: 0.03em;
+  
   color: #ffffff;
 }
 .adress-on-map {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
+  
   color: #ffffff;
 }
 .email-footer {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
+  
   color: rgba(255, 255, 255, 0.6);
 }
-.footer {
-  background-color: #2f303a;
+.footer-title {
+
+font-weight: 700;
+font-size: 14px;
+line-height: 1.2;
+text-align: center;
+
+text-transform: uppercase;
+color: #FFFFFF
+}
+
+
 }
 .btn-portfolio {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
-  letter-spacing: 0.03em;
+  
   color: var(--main-text-color);
 }
 
@@ -182,7 +201,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.9;
-  letter-spacing: 0.03em;
+  
   color: var(--acent-color);
 }
 .logo-studio-portfolio {
@@ -191,7 +210,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
+  
   color: var(--main-text-color);
 }
 
@@ -216,8 +235,12 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.87;
-  letter-spacing: 0.03em;
   color: var(--secondary-text-color);
+}
+.portfolio-text{
+font-weight: 500;
+line-height: 1.56;
+color: #FFFFFF;
 }
 .portfolio-items {
   text-decoration: none;
